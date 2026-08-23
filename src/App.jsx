@@ -9,11 +9,11 @@ function App() {
   const [projects, setProjects] = useState([
     {
       id: 1,
-      title: "Blog Articles",
-      category: "Article writing",
-      description: "We help clients update and maintain the current knowledge of the industry's standards",
+      title: "Drifting",
+      category: "Drifting",
+      description: "Making one car drift is a task doing it with another on the side is mastery",
       image:
-        "https://plus.unsplash.com/premium_photo-1720744786849-a7412d24ffbf?q=80&w=809&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        "https://images.unsplash.com/photo-1536909526839-8f10e29ba80c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       id: 2,
