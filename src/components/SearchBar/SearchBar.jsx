@@ -1,4 +1,4 @@
-import "./SearchBar.css";
+
 
 function SearchBar({ searchTerm, setSearchTerm }) {
   return (
@@ -6,6 +6,7 @@ function SearchBar({ searchTerm, setSearchTerm }) {
       <input
         type="text"
         placeholder="Search projects..."
+        style={{ width: '97.5%' }}
         value={searchTerm}
         onChange={(e) =>
           setSearchTerm(e.target.value)

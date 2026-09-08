@@ -1,35 +1,75 @@
-This is a Single Page Application(SPA) showcasing a creative Agency's projects and one is able to add more projects on the form.
+**Creative Agency Portfolio Platform**
 
-**Technologies used:**
-1. React.js
-2. VS code Application
-3. CSS
-4. Version Control: Git $ GitHub
+Single Page Application built with React that showcases a creative agency's projects and allows users to add and search through projects.
 
-1. Initial Page Landing: 
-   - The app loads with two projects stored locally in the application state.
-2. Project Storage (`useState`):
-   - Users can add new projects via the `ProjectForm` component. 
-   - Submitted project details are seamlessly appended to the main projects array held in React state.
-3. Real-time Search & Filtering:
-   - Users can search for projects by title/keyword using the `SearchBar` component.
-   - Updates to the search bar dynamically filter the central project list in `App.jsx`, ensuring only matching items are passed to the gallery display.
-4. Component-driven Rendering:
-   - `ProjectList` receives the filtered project data from state and dynamically maps over each item, rendering it using individual `ProjectCard` components.
+**Table of Contents**
 
-**SETUP INSTRUCTION**
+- [Overview]
+- [Features]
+- [Live-Demo]
+- [Local-Setup]
+- [Requirements]
+- [Roadmap]
 
-1. Open VS code and open your terminal, navigate to an empty folder or create one using `cd` or `mkdir`.
+## Overview
 
-2. Clone the repository to your local folder on your machine using:
+The Creative Agency Portfolio Platform is a Single Page Application (SPA) built with React.
 
-  git clone git@github.com:Muchuku1/SPA-with-React-Portfolio-Platform.git
+The application provides a simple platform for showcasing creative agency projects while allowing users to add new projects and search through the existing project collection.
 
-3. Move to the child folder.
+Projects are managed using React state and displayed dynamically through reusable components.
 
-4. Install the node modules using `npm i`
+![image of project](image-1.png)
 
-5. Run the project while inside the directory which had the node modules and use the command 
-  `npm run dev`
+## Features
+
+- View creative agency projects
+- Add new projects using a project form
+- Search projects by title or keyword
+- Real-time project filtering
+- Dynamically render projects using reusable React components
+- Store projects using React `useState`
+- Responsive user interface
+- Component-based application structure
+
+## Live Demo
+
+Open the application here:
+
+https://react-creative-portfolio.netlify.app/
+
+## Local Setup
+
+1. Clone the repository:
+
+bash shell
+git clone https://github.com/Muchuku1/SPA-with-React-Portfolio-Platform.git
+
+2. Navigate to the root directory:
+
+cd SPA-with-React-Portfolio-Platform/
+
+3. Install node modules
+
+**npm i**
+
+4. Run the app using:
+
+**npm run dev**
+
+
+### Requirements
+
+- Internet Access
+- A modern web browser
+
+### Technologies Used 
+- HTML5
+- CSS
+- React.js
+
+### Roadmap
+- Add image favorites and saved collections
+- Better the UI design
 
 
